@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000;
+  background: #fff;
+}
+
+.pageHeader {
+  width: 1900px;
+  min-height: 900px;
+  background: linear-gradient(180deg, #EDA418 47%, rgba(236.94, 164.43, 23.69, 0) 100%);
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 70px;
+  padding-top: 105px;
+  padding-right: 65px;
+}
+
+.logo {
+  display: block;
+  margin-top: 8px;
+}
+
+.navigationList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto 0;
+  margin-left: 150px;
+  list-style: none;
+}
+
+.navigationTitleMain {
+  display: block;
+  min-width: 200px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navigationButton {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: #a19595;
+  border: none;
+  border-radius: 100px;
+}
+
+.containerPageHeader {
+  display: flex;
+  padding-top: 25px;
+  gap: 20px;
+  padding-left: 300px;
+}
+
+.textHeadeList {
+  width: 600px;
+  list-style: none;
+}
+
+.textHeader {
+  padding-top: 190px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.textHeaderDiscount {
+  padding: 30px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.containerButtonHeader {
+  display: block;
+  width: 142px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  background-color: #E52626;
+  border-radius: 50px;
+  border: none;
+}
+
+.pageMain {
+  width: 1900px;
+  min-height: 900px;
+  text-align: center;
+}
+
+.containerCatalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catalogTitle {
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+}
+
+.catalogList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 40px;
+  gap: 40px 30px;
+  list-style: none;
+}
+
+.catalogItem {
+  width: 450px;
+}
+
+.catalogText {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 35px;
+  color: #000;
+}
+
+.pageFooter {
+  width: 1900px;
+  min-height: 450px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #EDA61D 100%);
+}
+
+.footerList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 160px;
+  gap: 100px;
+  font-weight: 400;
+  font-size: 20px;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerTitle {
+  text-decoration: none;
+  color:#000; 
+}
+
+.footerPageText {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  list-style: none;
+}
+
+.footerText {
+  padding-top: 25px;
+
+}
+
+.footerContacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  list-style: none;
+  padding-top: 25px;
+}
+
+.footerImages {
+  display: block;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.footerImageTelegram {
+  display: block;
+  align-items: center;
+}
